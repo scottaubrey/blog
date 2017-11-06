@@ -1,7 +1,7 @@
 ---
 title: "Hello? Is It Me Your Looking For?"
 date: 2017-11-06T21:37:17Z
-draft: true
+draft: false
 ---
 Hi! Welcome to my new blog. I'm starting a new habit, trying to get into a habit of writing something about my day. Anything.
 
