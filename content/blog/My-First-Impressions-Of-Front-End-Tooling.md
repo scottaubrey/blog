@@ -4,8 +4,6 @@ date: 2018-09-01T15:45:00Z
 draft: false
 ---
 
-# My first impressions of front end tooling 
-
 I'm a back end developer by trade, usually PHP, and I'm much more at home in the worlds of APIs, microservices, databases, and ORMs than preprocessors, bundlers and async modules. 
 
 However, for a side project I'm working on, I'm making a web presence "shop front" for an Etsy store. I don't profess to be much of a design person, but I know my way around front end technologies enough to respond and create someone else's design. 
