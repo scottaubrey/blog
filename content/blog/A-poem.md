@@ -2,8 +2,8 @@
 title: "A Poem"
 date: 2018-08-15T21:49:46Z
 draft: false
-categories = ["personal"]
-tags = ["poem"]
+categories: ["personal"]
+tags: ["poem"]
 ---
 
 The wind was wild<br>
