@@ -21,3 +21,4 @@ Here's a few of the things I might talk about regarding these:
 * Alternative education styles
 * Individual empowerment
 * Social resposibility
+* The occasional poke of creativity
