@@ -89,3 +89,6 @@
         </div>
     </div>
 </section>
+{{ if .Site.Params.footer }}
+    <section class="icons" style="padding-top: 0px;"><div class="container"><div class="content"></div>{{ .Site.Params.footer }} </div></div></section>
+{{ end }}

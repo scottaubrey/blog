@@ -19,8 +19,9 @@ description = "My personal website"
 avatar = "img/headshot.jpg"
 dateformat = "2nd Jan 2006"
 noshowreadtime = true
-twitter = "scottaubrey"
+twitter = "https://twitter.com/scottaubrey"
 highlightjs = true
+footer = "Copyright Scott Aubrey"
 
 [[menu.main]]
     name = "about"
