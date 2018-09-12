@@ -1,4 +1,34 @@
 baseURL = "https://www.aubrey.org.uk/"
-languageCode = "en-gb"
-title = "Scott's Blog"
+languageCode = "en-GB"
+
+
+pygmentsstyle = "monokai" # Color-theme or style for syntax highlighting.
+pygmentscodefences = true # Enable code fence background highlighting.
+pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences without specified language.
+pygmentsuseclasses  = true
+
+
 theme = "cocoa"
+author = "Scott Aubrey"
+title = "Scott Aubrey"
+
+[params]
+author = "Scott Aubrey"
+selfintro = "Developer, System Architect, Manager, Christian, Husband, Home Educator"
+description = "My personal website"
+avatar = "img/headshot.jpg"
+dateformat = "2nd Jan 2006"
+noshowreadtime = true
+twitter = "scottaubrey"
+highlightjs = true
+
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 100
+    url = "/about/"
+
+[[menu.main]]
+    name = "Blog"
+    weight = 200
+    url  = "/blog/"
