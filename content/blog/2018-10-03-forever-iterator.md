@@ -17,9 +17,9 @@ public function getColours()
 
 ```
 
-This would work fine, but it occurred to me that this could be a good use of goto. I remember hearing abour a github
-issue where someone submitted a PR to replace goto's in a project, and the authro of the library showed that the goto's
-were in fact faster, and easily understood and read. I thouth this might also fit the bill. Something like this:
+This would work fine, but it occurred to me that this could be a good use of goto. I remember reading a github
+issue where someone submitted a PR to replace goto's in a project, and the author of the library showed that the goto's
+were in fact faster, and easily understood and read. I thought this might also fit the bill. Something like this:
 
 ```php
 <?php
@@ -84,5 +84,5 @@ time taken = 0.038147926330566
 
 ## Fin
 
-So there you have it. Incontrovertible evidence that the goto has a place in infiniately iterating an array in
+So there you have it. Incontrovertible evidence that the goto has a place in infinitely iterating an array in
 time-sensitive applications. Was this one? No! Of course not. It was still fun though?! ;)
