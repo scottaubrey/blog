@@ -4,9 +4,9 @@ date: 2018-10-22T09:10:00
 draft: false
 ---
 
-Following on from my  [previous post on roadrunner]({{< relref "2018-09-12-Roadrunner-a-PHP-application-server.md" >}}). I've since been made aware of [Swoole](https://www.swoole.co.uk). Swoole biils itself as a "Production-Grade Async programming Framework for PHP". I confess that when I first became aware of swoole, I dismissed it as another ReactPHP/Icicle/Amp nginx fraemwork, but written as an extension.
+Following on from my  [previous post on roadrunner]({{< relref "2018-09-12-Roadrunner-a-PHP-application-server.md" >}}). I've since been made aware of [Swoole](https://www.swoole.co.uk). Swoole bills itself as a "Production-Grade Async programming Framework for PHP". I confess that when I first became aware of Swoole, I dismissed it as another ReactPHP/Icicle/Amp nginx fraemwork, but written as an extension.
 
-However, if you actually [look at this diagram](https://www.swoole.co.uk/how-it-works) it shows that there is much more going on than just a async loop. The Swoole framework actually manages to make the process of many master and worker processes (as I described in Roadrunner) as seamless as a few lines of callback-like code.
+However, if you actually [look at this diagram](https://www.swoole.co.uk/how-it-works) it shows that there is much more going on than just an async loop. The Swoole framework actually manages to make the process of many master and worker processes (as I described in Roadrunner) as seamless as a few lines of callback-like code.
 
 Observe the simple example given in the documentation:
 
@@ -26,7 +26,7 @@ $http->on("request", function ($request, $response) {
 $http->start();
 ```
 
-This would appear to run a simple loop and run the anonymous function on HTTP request. However, reality is a bit different:
+This would appear to run a simple loop, then run the anonymous function on an HTTP request. However, reality is a bit different:
 
 ```bash
 $ php test-swoole.php
@@ -78,7 +78,7 @@ Requests/sec:   1703.73
 Transfer/sec:     10.80MB
 ```
 
-### PHP built-in server:
+### Swoole:
 
 ```bash
 $ wrk -t1 -c1 -d30s http://127.0.0.1:8080
@@ -92,6 +92,6 @@ Requests/sec:   5924.05
 Transfer/sec:     37.75MB
 ```
 
-Remember, most of this spedd should be coming from not re-bootstrapping the application on each request. The whopping >50x faster Roadrunner becomes a whopping 4x faster still, or **200x faster that PHP application server**.
+Remember, most of this speed up should be coming from not re-bootstrapping the application on each request. The >50x faster Roadrunner becomes a whopping 4x faster still with Swoole, or **200x faster than the PHP application server**.
 
-I confess, I really don't know of the qaulity of swoole's HTTP server, but the capapbility to "start" your own server, combined with the tidy performance improvement lets me think that Swoole is worth giving a try.
+I confess, I really don't know of the quality of Swoole's HTTP server, but the capability to "start" your own server, combined with the tidy performance improvement lets me think that Swoole is worth giving a try.
