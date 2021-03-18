@@ -33,3 +33,9 @@ footer = "Copyright Scott Aubrey"
     name = "Blog"
     weight = 200
     url  = "/blog/"
+
+[[menu.main]]
+    name = "C.V."
+    identifier = "cv"
+    weight = 100
+    url = "https://cv.aubrey.org.uk"
