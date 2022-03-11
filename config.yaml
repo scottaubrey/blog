@@ -1,0 +1,42 @@
+
+baseURL: https://scottaubrey.info/
+languageCode: en-GB
+
+theme: "sustain"
+title: "Scott Aubrey"
+
+params:
+  avatar: img/headshot.jpg
+  author: Scott Aubrey
+  description: My personal website
+  social:
+    Github: scottaubrey
+    Email: "scott@aubrey.org.uk"
+    Twitter: scottaubrey
+    RSS: /blog/index.xml
+
+markup:
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    noHl: false
+    style: monokai
+    tabWidth: 4
+
+menu:
+  main:
+  - name: About
+    identifier: about
+    weight: 100
+    url: /about/
+  - name: blog
+    weight: 200
+    identifier: blog
+    url: /blog/
