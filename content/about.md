@@ -5,7 +5,7 @@ draft: false
 categories: ["personal"]
 ---
 
-Hi, I'm Scott. I'm a Developer, System Architect and all around technology enthusiast.
+Hi, I'm Scott. I'm a Developer, System Architect, Dev Ops engineer and all around technology enthusiast.
 Here's a few of the things I might talk about regarding technology:
 
 * Web Technologies
@@ -14,6 +14,7 @@ Here's a few of the things I might talk about regarding technology:
 * Design Patterns (Programming)
 * Building and managing technology teams
 * Project management (specifically software and IT projects)
+* DevOps related technologies, including Kubernetes, Terraform, CI/CD.
 
 I'm also a Christian, father of 2, and a Home Education advocate.
 Here's a few of the things I might talk about regarding these:
