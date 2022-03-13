@@ -27,7 +27,7 @@ markup:
     lineNumbersInTable: true
     noClasses: true
     noHl: false
-    style: solarized-dark
+    style: solarized-dark256
     tabWidth: 4
 
 menu:
