@@ -1,0 +1,2 @@
+.PHONY server:
+	hugo server
