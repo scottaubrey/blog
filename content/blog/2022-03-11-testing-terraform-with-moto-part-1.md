@@ -18,7 +18,7 @@ So, with our scope set, I set off on my adventure.
 
 First thing was to get Moto up and running. I used the docker container available [here](https://hub.docker.com/r/motoserver/moto/tags), and just used docker locally to run this container:
 
-```shell
+```shell-session
 > docker run --rm  --name kubernetes-cluster-provisioning-test -p 5000:5000 motoserver/moto:latest
 ```
 
@@ -92,7 +92,7 @@ aws_secret_access_key = test
 
 With both those in place, I was able to run a few different aws-cli commands against the Mocked AWS:
 
-```shell
+```shell-session
 > aws --region  us-east-1 ec2 describe-images --filters Name=name,Values=amazon-eks-node-*
 {
     "Images": [
@@ -170,7 +170,7 @@ I've just added endpoints to the services I expect to use, but there is a whole 
 
 At this point you can run `terraform init` to get the aws module:
 
-```shell
+```shell-session
 > terraform init
 
 Initializing the backend...
@@ -227,7 +227,7 @@ output "aws_ami_architecture" {
 
 If all is well, when you run `terraform plan`, your output should looks something like this:
 
-```shell
+```shell-session
 > terraform plan
 
 Changes to Outputs:
