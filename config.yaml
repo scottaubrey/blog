@@ -27,7 +27,7 @@ markup:
     lineNumbersInTable: true
     noClasses: true
     noHl: false
-    style: monokai
+    style: solarized-dark
     tabWidth: 4
 
 menu:
