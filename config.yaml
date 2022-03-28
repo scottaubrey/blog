@@ -1,6 +1,7 @@
 
 baseURL: https://scottaubrey.info/
 languageCode: en-GB
+timeZone: Europe/London
 
 theme: "sustain"
 title: "Scott Aubrey"
