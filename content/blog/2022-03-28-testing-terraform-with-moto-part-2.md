@@ -4,9 +4,9 @@ date: 2022-03-28T15:00:00
 draft: false
 ---
 
-In (my last post)[/blog/2022-03-11-testing-terraform-with-moto-part-1/] I started to set up the terraform and moto environment. In this post, we'll attempt to connect an existing module up to moto server.
+In [my last post](/blog/2022-03-11-testing-terraform-with-moto-part-1/) I started to set up the terraform and moto environment. In this post, we'll attempt to connect an existing module up to moto server.
 
-I had previously (exported and converted the terraform output of builder)[https://github.com/elifesciences/kubernetes-cluster-provisioning] to standard terraform HCL, and decided to build upon that work to:
+I had previously [exported and converted the terraform output of builder](https://github.com/elifesciences/kubernetes-cluster-provisioning) to standard terraform HCL, and decided to build upon that work to:
 
 1) Give the scenario a real-world setup
 2) Save myself time trying to write it from scratch.
