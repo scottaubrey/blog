@@ -149,20 +149,20 @@ To connect Terraform to the Moto instance, I used this provider config in a file
 ```terraform
 // setup provider for localstack
 provider "aws" {
-    region                      = "us-east-1"
-    access_key                  = "test"
-    secret_key                  = "test"
-    s3_use_path_style           = true
-    skip_credentials_validation = true
-    skip_metadata_api_check     = true
-    skip_requesting_account_id  = true
+  region                      = "us-east-1"
+  access_key                  = "test"
+  secret_key                  = "test"
+  s3_use_path_style           = true
+  skip_credentials_validation = true
+  skip_metadata_api_check     = true
+  skip_requesting_account_id  = true
 
-    endpoints {
-        ec2 = "http://localhost:5000"
-        eks = "http://localhost:5000"
-        iam = "http://localhost:5000"
-        s3  = "http://localhost:5000"
-    }
+  endpoints {
+    ec2 = "http://localhost:5000"
+    eks = "http://localhost:5000"
+    iam = "http://localhost:5000"
+    s3  = "http://localhost:5000"
+  }
 }
 ```
 
@@ -218,10 +218,10 @@ data "aws_ami" "test_ami" {
 
 # output during plan/apply
 output "bucket_file_body" {
-    value = data.aws_s3_object.test_file.body
+  value = data.aws_s3_object.test_file.body
 }
 output "aws_ami_architecture" {
-    value = data.aws_ami.test_ami.architecture
+  value = data.aws_ami.test_ami.architecture
 }
 ```
 
