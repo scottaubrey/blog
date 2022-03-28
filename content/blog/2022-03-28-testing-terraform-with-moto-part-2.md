@@ -227,3 +227,7 @@ class Cluster:
 Where as aws's [API documentation says it's an array](https://docs.aws.amazon.com/eks/latest/APIReference/API_Cluster.html#AmazonEKS-Type-Cluster-encryptionConfig) and[`aws-sdk-go`](https://github.com/aws/aws-sdk-go/blob/7f50d8698cdad3dd5e653c426d2874163f832e5c/service/eks/api.go#L4747) expects a list in the response.
 
 I've posted a bug request [here](https://github.com/spulec/moto/issues/4979), hopefully this will be ironed out upstream.
+
+In the next post, I'll explore a temporary fix for this, and then using terratest to set out examples and tests. Until next time.
+
+\- Scott
