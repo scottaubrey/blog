@@ -4,11 +4,13 @@ date: 2022-04-25T16:50:00
 draft: false
 ---
 
-In [my last post](/blog/2022-03-11-testing-terraform-with-moto-part-2/) I ran into a roadblock related to the moto project, and it's API responses.
+In [my last post](/blog/2022-03-11-testing-terraform-with-moto-part-2/) I ran into a roadblock related to the moto project, and it's API responses not matching those of AWS, causing terraform to fail.
 
-In the interim, the moto bblommers fixed [my issue](https://github.com/spulec/moto/issues/4979), and so the latest release of moto works just fine.
+Since posting that blog post and the issue, moto contributor `bblommers` responded to and fixed [my issue](https://github.com/spulec/moto/issues/4979) (pretty darn fast actually), and so I was able to reproduce my experiment with the latest release of moto, and it works just fine.
 
-In this post we will explore the basics of testing out our module with terratest. What is it?
+In this post we will explore the basics of testing out our module with terratest.
+
+## What is it?
 
 > *"Terratest is a Go library that provides patterns and helper functions for testing infrastructure, with 1st-class support for Terraform"*
 >
