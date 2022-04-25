@@ -10,7 +10,7 @@ Since posting that blog post and the issue, moto contributor `bblommers` respond
 
 In this post we will explore the basics of testing out our module with terratest.
 
-## What is it?
+## What is terratest?
 
 > *"Terratest is a Go library that provides patterns and helper functions for testing infrastructure, with 1st-class support for Terraform"*
 >
