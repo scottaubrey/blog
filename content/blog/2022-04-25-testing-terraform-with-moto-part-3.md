@@ -16,7 +16,7 @@ In this post we will explore the basics of testing out our module with terratest
 >
 >  -- <cite>[Terratest homepage](https://terratest.gruntwork.io/)</cite>
 
-Think of it as a pre-defined set of helpers, build on go's testing framework, designed to enable repetitive automation and give assertions entirely focused on infrastructure automation. It means, you don't have to write the majority of the handling terraform, API api, etc. Instead, terratest gives you lots of helpers, and you focus on expressing your infrastructure tests.
+Think of it as a collection of pre-defined test helpers, build on go's testing framework, designed to reduce repetitive automation and writing of assertions, entirely focused on infrastructure automation. It means, you don't have to write the majority of the handling terraform, API api, etc. Instead, terratest gives you lots of helpers, and you focus on expressing your infrastructure tests.
 
 For our purposes, the helpers around terraform automate the running of terraform plans, parsing the output, and cleaning up afterwards. Later on, we'll explore if we can also verify the resources created against AWS API
 
