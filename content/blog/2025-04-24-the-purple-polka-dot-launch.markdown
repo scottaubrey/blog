@@ -10,6 +10,6 @@ For years Helen has made little gifts and things from wool felt: brooches, key-r
 
 She now does quite well on a monthly basis selling mostly banners and garlands. With Ben now at Uni and Charis starting at college after summer, we've decided to try make a little bit more of it and see if we can grow and branch out into other product areas together. 
 
-So to support this goal, we've set up our own website. We're just getting started, so new products are appearing regularly as we get setup. In the meantime though, go check it out over at [https://thepurplepolkadot.co.uk/](https://thepurplepolkadot.co.uk/)
+So to support this goal, we've set up our own website. We're just getting started, so new products are appearing regularly as we get setup. In the meantime though, go check it out over at [thepurplepolkadot.co.uk](https://thepurplepolkadot.co.uk/)
 
 Peace out.
