@@ -1,0 +1,5 @@
+[tools]
+hugo = "v0.94.0"
+
+[tasks.server]
+run = "hugo server"
